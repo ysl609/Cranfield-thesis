@@ -28,12 +28,12 @@ numpy==1.26.0
     #   contourpy
     #   imageio
     #   matplotlib
-    #   opencv-python
+    #   opencv-contrib-python
     #   scikit-image
     #   scikit-learn
     #   scipy
     #   tifffile
-opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84
     # via -r requirements.in
 packaging==25.0
     # via
