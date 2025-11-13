@@ -196,12 +196,12 @@ def stereo(save_img:bool=False, visualize:bool=True):
     :param visualize: Whether to visualize the output disparity map
     :return: void
     """
-    img_dir = "../images"
-    output_dir = "../outputs"
+    img_dir = "images"
+    output_dir = "outputs"
 
     # config for demo images (1280x960 px)
     scene = "devon1"
-    num_disp = 200
+    num_disp = 208  # must be divisible by 16
     n_segments = 4000
 
     left_path = os.path.join(img_dir, f'{scene}-left.ppm')
